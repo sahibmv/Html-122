@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300;1,400&display=swap');
+
+
+
 body{
     background-color:white;
+    font-family: 'Roboto', sans-serif;
 
     background-image: url(https://th.bing.com/th/id/R.4c44ffb3128ea2386e94675af604a8e4?rik=jBrxZQEnw7SseA&pid=ImgRaw&r=0)
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300;1,400&display=swap');
 
 
-body{
-    font-family: 'Roboto', sans-serif;
-}
+
 
 
 h1,h2{
@@ -32,9 +34,8 @@ p{
 a{
     text-decoration: none;
     color: white;
-    justify-content: space-between ; 
-    gap: 20;
-
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -47,8 +48,9 @@ img{
     display: block;
 }
 
-section .left-side{
+section {
     display: flex;
+    justify-content: space-between;
 }
 
 .left-side h2{
@@ -59,4 +61,12 @@ section .left-side{
     color: orange;
 }
 
+nav{
+    display: flex;
+    background-color: red;
+    flex-basis: 40%;
+    justify-content: space-around;
 
+    
+    
+}
